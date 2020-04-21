@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>641743733167-nf6siissa2pdu9ct751nvcbcpfg3kdu3.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.641743733167-nf6siissa2pdu9ct751nvcbcpfg3kdu3</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAorhP_M0vzRRdePHo3I2pTttRghA_HNxc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>641743733167</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.samueltsokwa.housechat</string>
+	<key>PROJECT_ID</key>
+	<string>housechatrevamp</string>
+	<key>STORAGE_BUCKET</key>
+	<string>housechatrevamp.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:641743733167:ios:3ee638e2b5e6387e5f6f5a</string>
+	<key>DATABASE_URL</key>
+	<string>https://housechatrevamp.firebaseio.com</string>
+</dict>
+</plist>

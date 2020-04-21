@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ContactsCell" customModule="housechat" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="80" height="100"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JCz-E5-JnV">
+                        <rect key="frame" x="15" y="81" width="50" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="G5A-7I-wIJ"/>
+                            <constraint firstAttribute="width" constant="50" id="yv9-ax-4Ah"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="d8P-7r-LtZ">
+                        <rect key="frame" x="6" y="7" width="68" height="73"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="68" id="gBE-g3-tul"/>
+                            <constraint firstAttribute="height" constant="73" id="hIG-Mf-J5S"/>
+                        </constraints>
+                    </imageView>
+                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zrF-Or-Pdb">
+                        <rect key="frame" x="38" y="0.0" width="44" height="41"/>
+                        <subviews>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="umh-1X-s1Q">
+                                <rect key="frame" x="5" y="-3" width="44" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="8jI-Nh-sKT"/>
+                                    <constraint firstAttribute="width" constant="44" id="bcM-Vq-zRV"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="circle.fill" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="28"/>
+                                </state>
+                            </button>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dft-P1-KFt">
+                                <rect key="frame" x="5" y="-3" width="44" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="44" id="SNq-R4-1wk"/>
+                                    <constraint firstAttribute="height" constant="41" id="cYU-iN-8Si"/>
+                                </constraints>
+                                <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="xmark.circle.fill" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="28"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="umh-1X-s1Q" firstAttribute="top" secondItem="zrF-Or-Pdb" secondAttribute="top" constant="-3" id="Eg3-2h-ItU"/>
+                            <constraint firstAttribute="height" constant="41" id="HuV-0L-1yA"/>
+                            <constraint firstAttribute="width" constant="44" id="Jdl-LE-tla"/>
+                            <constraint firstAttribute="bottom" secondItem="umh-1X-s1Q" secondAttribute="bottom" constant="3" id="Mhi-1a-fbO"/>
+                            <constraint firstAttribute="trailing" secondItem="umh-1X-s1Q" secondAttribute="trailing" constant="-5" id="UDK-ON-1hh"/>
+                            <constraint firstAttribute="trailing" secondItem="Dft-P1-KFt" secondAttribute="trailing" constant="-5" id="VeT-Lw-wzP"/>
+                            <constraint firstAttribute="bottom" secondItem="Dft-P1-KFt" secondAttribute="bottom" constant="3" id="pjX-Ab-wba"/>
+                            <constraint firstItem="Dft-P1-KFt" firstAttribute="top" secondItem="zrF-Or-Pdb" secondAttribute="top" constant="-3" id="qXi-wQ-sX5"/>
+                            <constraint firstItem="umh-1X-s1Q" firstAttribute="leading" secondItem="zrF-Or-Pdb" secondAttribute="leading" constant="5" id="vj7-k4-MGd"/>
+                            <constraint firstItem="Dft-P1-KFt" firstAttribute="leading" secondItem="zrF-Or-Pdb" secondAttribute="leading" constant="5" id="w8Z-QU-IdL"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="JCz-E5-JnV" firstAttribute="top" secondItem="d8P-7r-LtZ" secondAttribute="bottom" constant="1" id="1fa-eY-SZm"/>
+                <constraint firstAttribute="trailing" secondItem="JCz-E5-JnV" secondAttribute="trailing" constant="15" id="4bP-ZQ-sIs"/>
+                <constraint firstItem="zrF-Or-Pdb" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="38" id="ALT-jB-wJQ"/>
+                <constraint firstAttribute="bottom" secondItem="JCz-E5-JnV" secondAttribute="bottom" constant="1" id="BeD-pz-FWf"/>
+                <constraint firstAttribute="trailing" secondItem="zrF-Or-Pdb" secondAttribute="trailing" constant="-2" id="FiX-tu-ito"/>
+                <constraint firstItem="d8P-7r-LtZ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="7" id="Jms-vz-zcd"/>
+                <constraint firstItem="JCz-E5-JnV" firstAttribute="top" secondItem="zrF-Or-Pdb" secondAttribute="bottom" constant="40" id="Lit-W9-2dC"/>
+                <constraint firstItem="JCz-E5-JnV" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="TiD-U3-Nsn"/>
+                <constraint firstItem="JCz-E5-JnV" firstAttribute="top" secondItem="d8P-7r-LtZ" secondAttribute="bottom" constant="1" id="eb1-pg-LoE"/>
+                <constraint firstItem="d8P-7r-LtZ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="6" id="fes-XK-oO7"/>
+                <constraint firstAttribute="trailing" secondItem="d8P-7r-LtZ" secondAttribute="trailing" constant="6" id="iUN-vI-sDr"/>
+                <constraint firstItem="zrF-Or-Pdb" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="jQX-pI-Qos"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <connections>
+                <outlet property="contactimage" destination="d8P-7r-LtZ" id="a6Z-y3-rQq"/>
+                <outlet property="contactname" destination="JCz-E5-JnV" id="F0p-g4-Bk0"/>
+                <outlet property="deletebutton" destination="Dft-P1-KFt" id="dB7-Cq-HYr"/>
+                <outlet property="deleteview" destination="zrF-Or-Pdb" id="ONx-OF-On4"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="79.6875"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="circle.fill" catalog="system" width="128" height="121"/>
+        <image name="xmark.circle.fill" catalog="system" width="128" height="121"/>
+    </resources>
+</document>

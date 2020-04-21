@@ -1,0 +1,6 @@
+module Pods_housechat {
+  umbrella header "Pods-housechat-umbrella.h"
+
+  export *
+  module * { export * }
+}

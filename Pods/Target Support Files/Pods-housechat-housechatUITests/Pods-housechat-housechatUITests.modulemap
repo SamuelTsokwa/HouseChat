@@ -1,0 +1,6 @@
+module Pods_housechat_housechatUITests {
+  umbrella header "Pods-housechat-housechatUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
