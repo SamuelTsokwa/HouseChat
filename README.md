@@ -1,5 +1,4 @@
 # HouseChat V1.0
-# Screenshots of core features
 
 Group Chats coming soon !
 
@@ -11,6 +10,7 @@ Group Chats coming soon !
 * You can me as a friend and we can talk, **samy@y.com** 
 * Enjoy
 
+# Screenshots of core features
 
 
 | | | |
