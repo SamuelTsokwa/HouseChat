@@ -1,7 +1,7 @@
-# HouseChat
+# HouseChat V1.0
 # Screenshots of core features
 
-
+Group Chats coming soon !
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
 |<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://github.com/SamuelTsokwa/HouseChat/blob/master/images/sign%20up%20page.PNG">  Sign up page |  <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://github.com/SamuelTsokwa/HouseChat/blob/master/images/sign%20in%20page.PNG">  Sign in page |  <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://github.com/SamuelTsokwa/HouseChat/blob/master/images/main%20view.PNG">  Main user page |
