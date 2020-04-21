@@ -7,7 +7,7 @@ Group Chats coming soon !
 * Open a terminal window in your new downloaded directory
 * Type **pod install**
 * Run the project in Xcode
-* You can me as a friend and we can talk, **samy@y.com** 
+* You can me as a friend and we can talk, **sam@y.com** 
 * Enjoy
 
 # Screenshots of core features
