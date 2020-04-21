@@ -2,6 +2,17 @@
 # Screenshots of core features
 
 Group Chats coming soon !
+
+## Instructions:
+* Clone this repository
+* Open a terminal window in your new downloaded directory
+* Type **pod install**
+* Run the project in Xcode
+* You can me as a friend and we can talk, **samy@y.com** 
+* Enjoy
+
+
+
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
 |<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://github.com/SamuelTsokwa/HouseChat/blob/master/images/sign%20up%20page.PNG">  Sign up page |  <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://github.com/SamuelTsokwa/HouseChat/blob/master/images/sign%20in%20page.PNG">  Sign in page |  <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://github.com/SamuelTsokwa/HouseChat/blob/master/images/main%20view.PNG">  Main user page |
