@@ -731,7 +731,7 @@ extension UserProfileController
         
         let i: Int = (sender.layer.value(forKey: "index")) as! Int
         guard let contactuid = self.Contacts[i].uid else{return}
-        let alert = UIAlertController(title: "Do you want to delete this contact ?", message: "This action will rmeove them from your contacts list", preferredStyle: .alert)
+        let alert = UIAlertController(title: "Do you want to delete this contact ?", message: "This action will remove them from your contacts list", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "Yes", style: .default, handler: { (action) in
 
             Api.User.deleteContact(contactuid: contactuid) {
